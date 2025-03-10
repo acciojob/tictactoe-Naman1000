@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background: lightgray;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkblue;
+}
